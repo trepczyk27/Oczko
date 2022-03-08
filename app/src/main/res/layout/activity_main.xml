@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/green">
+
+
+    <ImageSwitcher
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ImgS2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Remis!"
+        android:layout_marginTop="350dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/W2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <ImageSwitcher
+        android:id="@+id/imgS1"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp" />
+
+    <TextView
+        android:id="@+id/W1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="485dp"
+        android:text="0"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="680dp"
+        android:text="Losuj Kartę"
+        android:backgroundTint="@color/green1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="635dp"
+        android:text="Koniec Gry"
+        android:backgroundTint="@color/green1"
+        />
+
+    <Button
+        android:id="@+id/ilosc"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green1"
+        android:text="Ilość kart:  " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ilosc"
+        android:layout_marginLeft="40dp"
+        android:text="W:   R:   P:  "
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
